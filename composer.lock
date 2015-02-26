@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d33256d9a326fe3b96c27acb72470870",
+    "packages": [
+        {
+            "name": "fluentdom/fluentdom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FluentDOM/FluentDOM.git",
+                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/285d8edcaaeeea8afc52e23b94121b5875e66c37",
+                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "carica/phpcss": "Allows to use css selectors with FluentDOM::QueryCss().",
+                "symfony/css-selector": "Allows to use css selectors with FluentDOM::QueryCss()."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/FluentDOM.php"
+                ],
+                "psr-4": {
+                    "FluentDOM\\": "src/FluentDOM"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FluentDOM Contributors",
+                    "homepage": "https://github.com/FluentDOM/FluentDOM/contributors"
+                }
+            ],
+            "description": "A fluent api for the php dom extension.",
+            "homepage": "http://fluentdom.org",
+            "keywords": [
+                "dom",
+                "jquery",
+                "xml"
+            ],
+            "time": "2015-02-24 23:30:01"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/CssSelector",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/CssSelector.git",
+                "reference": "53a8f2a8629a60e4e69b8bdf369126ec31aa7299"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/53a8f2a8629a60e4e69b8bdf369126ec31aa7299",
+                "reference": "53a8f2a8629a60e4e69b8bdf369126ec31aa7299",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-21 13:23:59"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "fluentdom/fluentdom": 20,
+        "symfony/css-selector": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
