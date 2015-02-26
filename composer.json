@@ -19,6 +19,7 @@
         "symfony/css-selector": "~2.6"
     },
     "autoload": {
+        "files" : ["src/plugin.php"],
         "psr-4" : {
             "FluentDOM\\Symfony\\CssSelector\\" : "src/"
         }

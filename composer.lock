@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d33256d9a326fe3b96c27acb72470870",
+    "hash": "18d854c5349fb280b99a0425705d630e",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37"
+                "reference": "1cf695f61612b20046d47ea6baa8d74427481288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/285d8edcaaeeea8afc52e23b94121b5875e66c37",
-                "reference": "285d8edcaaeeea8afc52e23b94121b5875e66c37",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/1cf695f61612b20046d47ea6baa8d74427481288",
+                "reference": "1cf695f61612b20046d47ea6baa8d74427481288",
                 "shasum": ""
             },
             "require": {
@@ -53,33 +53,30 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-02-24 23:30:01"
+            "time": "2015-02-26 18:01:02"
         },
         {
             "name": "symfony/css-selector",
-            "version": "dev-master",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/CssSelector",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "53a8f2a8629a60e4e69b8bdf369126ec31aa7299"
+                "reference": "3f80ecc614fec68d5b4a84a0703db3fdf5ce8584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/53a8f2a8629a60e4e69b8bdf369126ec31aa7299",
-                "reference": "53a8f2a8629a60e4e69b8bdf369126ec31aa7299",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/3f80ecc614fec68d5b4a84a0703db3fdf5ce8584",
+                "reference": "3f80ecc614fec68d5b4a84a0703db3fdf5ce8584",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "php": ">=5.3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -107,15 +104,14 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-21 13:23:59"
+            "time": "2015-01-03 08:01:59"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "fluentdom/fluentdom": 20,
-        "symfony/css-selector": 20
+        "fluentdom/fluentdom": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

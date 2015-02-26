@@ -14,11 +14,7 @@ namespace FluentDOM\Symfony\CssSelector {
         CssSelector::disableHtmlExtension();
       }
       $result = CssSelector::toXpath($selector);
-      if ($isDocumentContext) {
-        return './'.$result;
-      } else {
-        return '/'.$result;
-      }
+      return ($isDocumentContext) ? '/'.$result : './'.$result;
     }
   }
 }
