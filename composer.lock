@@ -12,20 +12,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "1cf695f61612b20046d47ea6baa8d74427481288"
+                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/1cf695f61612b20046d47ea6baa8d74427481288",
-                "reference": "1cf695f61612b20046d47ea6baa8d74427481288",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/74f406a080b6880c7b11d016e25ccfdda37173e7",
+                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
                 "php": ">=5.4.0"
             },
             "suggest": {
-                "carica/phpcss": "Allows to use css selectors with FluentDOM::QueryCss().",
-                "symfony/css-selector": "Allows to use css selectors with FluentDOM::QueryCss()."
+                "fluentdom/css-selector": "Allows to use css selectors."
             },
             "type": "library",
             "autoload": {
@@ -36,7 +36,7 @@
                     "FluentDOM\\": "src/FluentDOM"
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -49,11 +49,12 @@
             "description": "A fluent api for the php dom extension.",
             "homepage": "http://fluentdom.org",
             "keywords": [
+                "Xpath",
                 "dom",
                 "jquery",
                 "xml"
             ],
-            "time": "2015-02-26 18:01:02"
+            "time": "2015-02-27 17:36:00"
         },
         {
             "name": "symfony/css-selector",
