@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/FluentDOM/Selectors-Symfony.svg?branch=master)](https://travis-ci.org/FluentDOM/Selectors-Symfony)
 [![License](https://poser.pugx.org/fluentdom/selectors-symfony/license.svg)](https://packagist.org/packages/fluentdom/selectors-symfony)
-[![Total Downloads](https://poser.pugx.org/fluentdom/selectors-symfony/downloads.svg)](https://packagist.org/packages/carica/phpcss)
+[![Total Downloads](https://poser.pugx.org/fluentdom/selectors-symfony/downloads.svg)](https://packagist.org/packages/selectors-symfony)
 [![Latest Stable Version](https://poser.pugx.org/fluentdom/selectors-symfony/v/stable.svg)](https://packagist.org/packages/fluentdom/selectors-symfony)
 [![Latest Unstable Version](https://poser.pugx.org/fluentdom/selectors-symfony/v/unstable.svg)](https://packagist.org/packages/fluentdom/selectors-symfony)
 
