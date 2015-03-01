@@ -7,14 +7,22 @@ namespace FluentDOM\Symfony\CssSelector {
 
   class Transformer implements TransformerInterface {
 
-    public function toXPath($selector, $isDocumentContext = FALSE, $isHtml = FALSE) {
+    public function toXPath($selector, $contextMode = self::CONTEXT_CHILDREN, $isHtml = FALSE) {
       if ($isHtml) {
         CssSelector::enableHtmlExtension();
       } else {
         CssSelector::disableHtmlExtension();
       }
       $result = CssSelector::toXpath($selector);
-      return ($isDocumentContext) ? '/'.$result : './'.$result;
+      switch ($contextMode) {
+      case self::CONTEXT_DOCUMENT :
+        return '//'.$result;
+      case self::CONTEXT_SELF :
+        return $result;
+      case self::CONTEXT_CHILDREN :
+      default :
+        return './/'.$result;
+      }
     }
   }
 }

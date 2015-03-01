@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18d854c5349fb280b99a0425705d630e",
+    "hash": "7f4b9934bc8c0207043f360afcba44e2",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7"
+                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/74f406a080b6880c7b11d016e25ccfdda37173e7",
-                "reference": "74f406a080b6880c7b11d016e25ccfdda37173e7",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/9e5ad19debb45eb7666c7337cfee7af0927f261d",
+                "reference": "9e5ad19debb45eb7666c7337cfee7af0927f261d",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-02-27 17:36:00"
+            "time": "2015-03-01 13:22:21"
         },
         {
             "name": "symfony/css-selector",
@@ -85,7 +85,7 @@
                     "Symfony\\Component\\CssSelector\\": ""
                 }
             },
-            "notification-url": "http://packagist.org/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
