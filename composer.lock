@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18d854c5349fb280b99a0425705d630e",
+    "hash": "41a826b9df41230e4738ade80a82b9c1",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
-            "version": "dev-master",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "f7187f50d85705554dabb6013636be8efee06a8a"
+                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/f7187f50d85705554dabb6013636be8efee06a8a",
-                "reference": "f7187f50d85705554dabb6013636be8efee06a8a",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/19c5a3c77c91871d2a2545949b5bde20889fcb45",
+                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-03-27 12:46:51"
+            "time": "2015-07-07 13:34:07"
         },
         {
             "name": "symfony/css-selector",
@@ -113,9 +113,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "fluentdom/fluentdom": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
