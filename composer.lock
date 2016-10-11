@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ee5f6f991b055d9484fd011b1abb1f8",
-    "content-hash": "1b833e3632e1ded103ebadb3071ec2a5",
+    "hash": "3fac19146ff7bd8ea3ed5a4317319bf1",
+    "content-hash": "0918984b757b17005dda732306a1a14d",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
@@ -117,6 +117,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.5.0"
+    },
     "platform-dev": []
 }
