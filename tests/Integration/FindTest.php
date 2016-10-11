@@ -28,7 +28,7 @@ namespace FluentDOM\PhpCss {
             <p>Me? I\'m <span class="mark red">good</span>.</p>
           </body>
         </html>',
-        \FluentDOM::QueryCss($xml)
+        (string)\FluentDOM::QueryCss($xml)
           ->find('p')
           ->find('span')
           ->filter('.mark')
