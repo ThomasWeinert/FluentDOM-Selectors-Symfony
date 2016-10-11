@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0be95ef455a3b92f646e5f44fb1a05ec",
-    "content-hash": "b43a473341d0c764b62b05bf30f70708",
+    "hash": "9ee5f6f991b055d9484fd011b1abb1f8",
+    "content-hash": "1b833e3632e1ded103ebadb3071ec2a5",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
@@ -59,25 +59,25 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.8.12",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "71c8c3a04c126300c37089b1baa7c6322dfb845f"
+                "reference": "ca809c64072e0fe61c1c7fb3c76cdc32265042ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/71c8c3a04c126300c37089b1baa7c6322dfb845f",
-                "reference": "71c8c3a04c126300c37089b1baa7c6322dfb845f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
+                "reference": "ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -108,7 +108,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-06 10:55:00"
+            "time": "2016-09-06 11:02:40"
         }
     ],
     "packages-dev": [],
