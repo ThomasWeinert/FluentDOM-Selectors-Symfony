@@ -16,5 +16,5 @@ It uses the [Symfony CSS-Selector Component](https://github.com/symfony/CssSelec
 ## Installation
 
 ```
-composer require symfony/css-selector
+composer require fluentdom/selectors-symfony
 ```
