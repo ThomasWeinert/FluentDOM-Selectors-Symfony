@@ -2,12 +2,14 @@
 
 namespace FluentDOM\Symfony\CssSelector {
 
-  require_once(__DIR__.'/../vendor/autoload.php');
+  use PHPUnit\Framework\TestCase;
 
-  class TransformerTest extends \PHPUnit_Framework_TestCase {
+  require_once __DIR__.'/../vendor/autoload.php';
+
+  class TransformerTest extends TestCase {
 
     /**
-     * @covers FluentDOM\Symfony\CssSelector\Transformer
+     * @covers \FluentDOM\Symfony\CssSelector\Transformer
      * @dataProvider provideCSSSelectors
      *
      * @param string $expectedXpath

@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3fac19146ff7bd8ea3ed5a4317319bf1",
-    "content-hash": "0918984b757b17005dda732306a1a14d",
+    "content-hash": "8675670d93eb11fbb7d267c316bd4d14",
     "packages": [
         {
             "name": "fluentdom/fluentdom",
-            "version": "5.3.0",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FluentDOM/FluentDOM.git",
-                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45"
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/19c5a3c77c91871d2a2545949b5bde20889fcb45",
-                "reference": "19c5a3c77c91871d2a2545949b5bde20889fcb45",
+                "url": "https://api.github.com/repos/FluentDOM/FluentDOM/zipball/32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
+                "reference": "32063e121ebbb0bd2fdf21a273a8e0184aba59e7",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "php": ">=5.4.0"
+                "php": ">=5.6.0"
             },
             "suggest": {
                 "fluentdom/css-selector": "Allows to use css selectors."
@@ -55,20 +54,20 @@
                 "jquery",
                 "xml"
             ],
-            "time": "2015-07-07 13:34:07"
+            "time": "2017-07-29T17:49:41+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.1.5",
+            "version": "v3.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "ca809c64072e0fe61c1c7fb3c76cdc32265042ac"
+                "reference": "4d882dced7b995d5274293039370148e291808f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
-                "reference": "ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/4d882dced7b995d5274293039370148e291808f2",
+                "reference": "4d882dced7b995d5274293039370148e291808f2",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +76,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -108,7 +107,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-06 11:02:40"
+            "time": "2017-05-01T15:01:29+00:00"
         }
     ],
     "packages-dev": [],
@@ -120,5 +119,8 @@
     "platform": {
         "php": ">=5.5.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.6"
+    }
 }
