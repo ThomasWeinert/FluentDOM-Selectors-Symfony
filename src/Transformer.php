@@ -6,7 +6,7 @@ namespace FluentDOM\Symfony\CssSelector {
 
   class Transformer implements \FluentDOM\Xpath\Transformer {
 
-    public function toXpath($selector, $contextMode = self::CONTEXT_CHILDREN, $isHtml = FALSE) {
+    public function toXpath(string $selector, int $contextMode = self::CONTEXT_CHILDREN, bool $isHtml = FALSE) {
       $converter = new CssSelectorConverter($isHtml);
       $result = $converter->toXPath($selector);
       switch ($contextMode) {
