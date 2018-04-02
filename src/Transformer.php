@@ -11,13 +11,16 @@ namespace FluentDOM\Symfony\CssSelector {
       $result = $converter->toXPath($selector);
       switch ($contextMode) {
       case self::CONTEXT_DOCUMENT :
-        $result = '//'.$result;
-        break;
+        return '//'.$result;
+      case self::CONTEXT_SELF :
+        if (0 === strpos($result, 'descendant-or-self::')) {
+          return substr($result, 14);
+        }
+        return $result;
       case self::CONTEXT_CHILDREN :
-        $result = './'.$result;
-        break;
+      default:
+        return './'.$result;
       }
-      return $result;
     }
   }
 }

@@ -29,13 +29,13 @@ namespace FluentDOM\Symfony\CssSelector {
       return [
         ['./descendant-or-self::p', 'p', Transformer::CONTEXT_CHILDREN, FALSE],
         ['//descendant-or-self::p', 'p', Transformer::CONTEXT_DOCUMENT, FALSE],
-        ['descendant-or-self::p', 'p', Transformer::CONTEXT_SELF, FALSE],
+        ['self::p', 'p', Transformer::CONTEXT_SELF, FALSE],
         ['./descendant-or-self::P', 'P', Transformer::CONTEXT_CHILDREN, FALSE],
         ['//descendant-or-self::P', 'P', Transformer::CONTEXT_DOCUMENT, FALSE],
-        ['descendant-or-self::P', 'P', Transformer::CONTEXT_SELF, FALSE],
+        ['self::P', 'P', Transformer::CONTEXT_SELF, FALSE],
         ['./descendant-or-self::p', 'P', Transformer::CONTEXT_CHILDREN, TRUE],
         ['//descendant-or-self::p', 'P', Transformer::CONTEXT_DOCUMENT, TRUE],
-        ['descendant-or-self::p', 'P', Transformer::CONTEXT_SELF, TRUE]
+        ['self::p', 'P', Transformer::CONTEXT_SELF, TRUE]
       ];
     }
   }
