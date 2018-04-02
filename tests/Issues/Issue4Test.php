@@ -6,7 +6,7 @@ namespace FluentDOM\PhpCss\Issues {
 
   require_once __DIR__ . '/../../vendor/autoload.php';
 
-  class Issue1Test extends TestCase {
+  class Issue4Test extends TestCase {
 
     public function testIsMatchingContextNodeExpectingTrue() {
       $this->assertTrue(
