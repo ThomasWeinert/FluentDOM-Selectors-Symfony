@@ -16,8 +16,8 @@
     },
     "require": {
         "php": ">=7.0",
-        "fluentdom/fluentdom": "^7.0",
-        "symfony/css-selector": "~3.4"
+        "fluentdom/fluentdom": "^8.0",
+        "symfony/css-selector": "^5.2"
     },
     "autoload": {
         "files" : ["src/plugin.php"],
